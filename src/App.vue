@@ -7,7 +7,7 @@
       <router-link to="/">
         <span>Timeline</span>
       </router-link>
-      <router-link to="/slide">
+      <router-link to="slide">
         <span>Slide</span>
       </router-link>
     </Slide>
