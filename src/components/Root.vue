@@ -1,90 +1,37 @@
 <template>
-  <div class="hello">
+  <div class="root">
     <Slide>
       <a id="home" href="#">
         <span>Home</span>
+      </a>
+      <a id="timeline" href="#">
+        <span>Timeline</span>
+      </a>
+      <a id="slide" href="/slide">
+        <span>Slide</span>
       </a>
     </Slide>
     <h1>{{ msg }}</h1>
     <h2>Essential Links</h2>
     <ul>
-      <li>
-        <a
-          href="https://vuejs.org"
-          target="_blank"
-        >
-          Core Docs
-        </a>
-      </li>
-      <li>
-        <a
-          href="https://forum.vuejs.org"
-          target="_blank"
-        >
-          Forum
-        </a>
-      </li>
-      <li>
-        <a
-          href="https://chat.vuejs.org"
-          target="_blank"
-        >
-          Community Chat
-        </a>
-      </li>
-      <li>
-        <a
-          href="https://twitter.com/vuejs"
-          target="_blank"
-        >
-          Twitter
-        </a>
-      </li>
-      <br>
-      <li>
-        <a
-          href="http://vuejs-templates.github.io/webpack/"
-          target="_blank"
-        >
-          Docs for This Template
-        </a>
-      </li>
     </ul>
-    <h2>Ecosystem</h2>
-    <ul>
-      <li>
-        <a
-          href="http://router.vuejs.org/"
-          target="_blank"
-        >
-          vue-router
-        </a>
-      </li>
-      <li>
-        <a
-          href="http://vuex.vuejs.org/"
-          target="_blank"
-        >
-          vuex
-        </a>
-      </li>
-      <li>
-        <a
-          href="http://vue-loader.vuejs.org/"
-          target="_blank"
-        >
-          vue-loader
-        </a>
-      </li>
-      <li>
-        <a
-          href="https://github.com/vuejs/awesome-vue"
-          target="_blank"
-        >
-          awesome-vue
-        </a>
-      </li>
-    </ul>
+    <main class="main">
+      <h3>Timeline</h3>
+      <section class="timeline">
+        <ul>
+          <li v-for="(info, index) in timeline_data" v-bind:key="index">
+            <span></span>
+            <div>{{ info.school }}</div>
+            <div>{{ info.address }}</div>
+            <div>{{ info.course }}</div>
+            <div class="year">
+              <span>{{ info.yearEnd }}</span>
+              <span>{{ info.yearStart }}</span>
+            </div>
+          </li>
+        </ul>
+      </section>
+    </main>
   </div>
 </template>
 
@@ -94,7 +41,30 @@ export default {
   name: 'Root',
   data () {
     return {
-      msg: 'Welcome to Your Vue.js App'
+      msg: 'Welcome to Your Vue.js App',
+      timeline_data: [
+        {
+          'school': 'Ateneo de Davao University',
+          'address': 'Roxas Ave, Poblacion District, Davao City',
+          'course': 'BS in Information Technology',
+          'yearStart': '2009',
+          'yearEnd': '2014'
+        },
+        {
+          'school': 'St. Marys College',
+          'address': 'Daang Maharlika Highway, Tagum City',
+          'course': '',
+          'yearStart': '2005',
+          'yearEnd': '2009'
+        },
+        {
+          'school': 'Magugpo Pilot Imelda Elementary School',
+          'address': 'Sobrecary St, Tagum City',
+          'course': '',
+          'yearStart': '1999',
+          'yearEnd': '2005'
+        }
+      ]
     }
   },
   components: {

@@ -2,7 +2,7 @@
   <div id="app">
     <img src="./assets/image/logo.png">
     <router-view/>
-    <div>Icons made by <a href="https://www.freepik.com/">Freepik</a> from <a href="https://www.flaticon.com/">www.flaticon.com</a> is licensed by <a href="http://creativecommons.org/licenses/by/3.0/">CC 3.0 BY</a></div>
+    <div class="license">Icons made by <a href="https://www.freepik.com/">Freepik</a> from <a href="https://www.flaticon.com/">www.flaticon.com</a> is licensed by <a href="http://creativecommons.org/licenses/by/3.0/">CC 3.0 BY</a></div>
   </div>
 </template>
 
@@ -20,5 +20,11 @@ export default {
   text-align: center;
   color: #2c3e50;
   margin-top: 60px;
+}
+.license {
+  color: black;
+}
+.license a {
+  color: #2c3e50;
 }
 </style>
