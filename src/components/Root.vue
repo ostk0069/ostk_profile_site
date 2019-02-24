@@ -1,16 +1,5 @@
 <template>
   <div class="root">
-    <Slide>
-      <a id="home" href="#">
-        <span>Home</span>
-      </a>
-      <a id="timeline" href="#">
-        <span>Timeline</span>
-      </a>
-      <a id="slide" href="/slide">
-        <span>Slide</span>
-      </a>
-    </Slide>
     <h1>{{ msg }}</h1>
     <h2>Essential Links</h2>
     <ul>
@@ -36,7 +25,6 @@
 </template>
 
 <script>
-import { Slide } from 'vue-burger-menu'
 export default {
   name: 'Root',
   data () {
@@ -66,9 +54,6 @@ export default {
         }
       ]
     }
-  },
-  components: {
-    Slide
   }
 }
 </script>
