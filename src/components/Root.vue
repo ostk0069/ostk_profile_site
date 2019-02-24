@@ -1,5 +1,10 @@
 <template>
   <div class="hello">
+    <Slide>
+      <a id="home" href="#">
+        <span>Home</span>
+      </a>
+    </Slide>
     <h1>{{ msg }}</h1>
     <h2>Essential Links</h2>
     <ul>
@@ -84,12 +89,16 @@
 </template>
 
 <script>
+import { Slide } from 'vue-burger-menu'
 export default {
-  name: 'HelloWorld',
+  name: 'Root',
   data () {
     return {
       msg: 'Welcome to Your Vue.js App'
     }
+  },
+  components: {
+    Slide
   }
 }
 </script>
