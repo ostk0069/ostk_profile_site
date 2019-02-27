@@ -19,22 +19,22 @@
       <h5 class="mb-5 text-secondary">
         <em class="license">{{ msg }}</em>
       </h5>
-      <div class="footer text-center p-0">
+      <div class="text-center">
         <div class="container">
           <ul class="list-inline mb-5">
-            <li class="list-inline-item">
-              <a class="social-link rounded-circle text-white mr-3" href="https://www.facebook.com/takuma.osada.10?ref=bookmarks">
-                <i class="icon-social-facebook"></i>
+            <li class="bg-dark rounded-circle p-3">
+              <a class="text-white" href="https://www.facebook.com/takuma.osada.10?ref=bookmarks">
+                <custom-icon name="facebook" base-class="custom-icon"></custom-icon>
               </a>
             </li>
-            <li class="list-inline-item">
-              <a class="social-link rounded-circle text-white mr-3" href="https://twitter.com/ostk0069">
-                <i class="icon-social-twitter"></i>
+            <li class="bg-dark rounded-circle p-3">
+              <a class="text-white" href="https://twitter.com/ostk0069">
+                <custom-icon name="twitter" base-class="custom-icon"></custom-icon>
               </a>
             </li>
-            <li class="list-inline-item">
-              <a class="social-link rounded-circle text-white" href="https://github.com/takumaosada">
-                <i class="icon-social-github"></i>
+            <li class="bg-dark rounded-circle p-3">
+              <a class="text-white" href="https://github.com/takumaosada">
+                <custom-icon name="github" base-class="custom-icon"></custom-icon>
               </a>
             </li>
           </ul>
@@ -61,21 +61,43 @@
         </ul>
       </section>
     </main>
+    <div class="container mt-5">
+      <ul class="list-inline mb-5">
+        <li class="bg-dark rounded-circle p-3">
+          <a class="text-white" href="https://www.facebook.com/takuma.osada.10?ref=bookmarks">
+            <custom-icon name="facebook" base-class="custom-icon"></custom-icon>
+          </a>
+        </li>
+        <li class="bg-dark rounded-circle p-3">
+          <a class="text-white" href="https://twitter.com/ostk0069">
+            <custom-icon name="twitter" base-class="custom-icon"></custom-icon>
+          </a>
+        </li>
+        <li class="bg-dark rounded-circle p-3">
+          <a class="text-white" href="https://github.com/takumaosada">
+            <custom-icon name="github" base-class="custom-icon"></custom-icon>
+          </a>
+        </li>
+      </ul>
+    </div>
     <div class="license mb-5">Icons made by <a href="https://www.freepik.com/">Freepik</a> from <a href="https://www.flaticon.com/">www.flaticon.com</a> is licensed by <a href="http://creativecommons.org/licenses/by/3.0/">CC 3.0 BY</a></div>
   </div>
 </template>
 
 <script>
 import { Slide } from 'vue-burger-menu'
+import customIcon from 'vue-icon/lib/vue-feather.esm'
 
 export default {
   name: 'Root',
   components: {
-    Slide
+    Slide,
+    customIcon
   },
   data () {
     return {
       msg: 'Rails & Swift Engineer',
+      baseClass: 'v-icon',
       timeline_data: [
         {
           'title': 'JX通信社でiOSインターン',
@@ -152,5 +174,8 @@ a {
 }
 .license a {
   color: #2c3e50;
+}
+.v-icon, .custom-icon {
+  width: 24px;
 }
 </style>
