@@ -181,7 +181,7 @@
             <span></span>
             <div>{{ info.title }}</div>
             <div>{{ info.description }}</div>
-            <div><a :href="info_path(info.url)">{{ info.url }}</a></div>
+            <div><a :href="info_path(info.url)">{{ info.url | truncate(20) }}</a></div>
             <div class="year">
               <span>{{ info.yearEnd }}</span>
               <span>{{ info.yearStart }}</span>
@@ -293,6 +293,17 @@ export default {
   methods: {
     info_path: function (url) {
       return url
+    }
+  },
+  filters: {
+    truncate: function (value, length) {
+      var lengthInt = length ? parseInt(length, 10) : 20
+      if (!value) return ''
+      if (value.length <= lengthInt) {
+        return value
+      } else {
+        return value.substring(0, lengthInt) + '...'
+      }
     }
   }
 }
