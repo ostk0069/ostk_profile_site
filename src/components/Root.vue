@@ -22,30 +22,155 @@
       <div class="text-center">
         <div class="container">
           <ul class="list-inline mb-5">
-            <li class="bg-dark rounded-circle p-3">
+            <li class="bg-dark rounded-circle p-3 mt-3">
               <a class="text-white" href="https://www.facebook.com/takuma.osada.10?ref=bookmarks">
                 <custom-icon name="facebook" base-class="custom-icon"></custom-icon>
               </a>
             </li>
-            <li class="bg-dark rounded-circle p-3">
+            <li class="bg-dark rounded-circle p-3 mt-3">
               <a class="text-white" href="https://twitter.com/ostk0069">
                 <custom-icon name="twitter" base-class="custom-icon"></custom-icon>
               </a>
             </li>
-            <li class="bg-dark rounded-circle p-3">
+            <li class="bg-dark rounded-circle p-3 mt-3">
               <a class="text-white" href="https://github.com/takumaosada">
                 <custom-icon name="github" base-class="custom-icon"></custom-icon>
               </a>
             </li>
+            <li class="bg-dark rounded-circle p-3 mt-3">
+          <a class="text-white" href="https://www.wantedly.com/users/31623094">
+            <custom-icon name="message-circle" base-class="custom-icon"></custom-icon>
+          </a>
+        </li>
           </ul>
         </div>
       </div>
     </div>
-    <div class="overlay"></div>
-    <ul>
-    </ul>
+
+    <main class="main bg-info shadow-large rounded">
+      <h3>PROFILE</h3>
+      <div class="container-fluid py-3">
+        <div class="row">
+          <div class="col-12 col-sm-5">
+            <img class="rounded img-fluid" src="/static/blamtaku.png">
+          </div>
+          <div class="col-12 col-sm-7">
+            <div class="text-left">
+              <p>
+                #名前 長田 卓馬
+                <br><br>
+                #大学 東京理科大学経営学部ビジネスエコノミクス学科(２１年卒)
+                <br><br>
+                #研究 データ分析(仮) 
+                <br><br>
+                #何してる Webサービス/アプリエンジニアになるため趣味で開発・インターンとかしてます
+                <br><br>
+                #最終的な理想のエンジニア像 経営面も考えられる・適切な技術選択ができる・チームをリードできるCTOになりたい
+                <br><br>
+                #今後やること アプリ開発
+                <br><br>
+                #好きなこと UIを見つめる 新しい言語に触れる 新規事業  Apple製品開封
+                <br><br>
+                #嫌いなこと 大人数の飲み会 インフラ 急なUIの変更
+                <br><br>
+                #趣味 ロボットが戦う映画・アニメ ゲーム(実況) 美味しいものを食べる
+                <br><br>
+                (＊2019/03時点)
+                
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <main class="main bg-vue shadow-large rounded">
+      <div class="container-fluid">
+        <h3>LANGUAGES</h3>
+        <div class="row">
+          <div class="col-12 col-sm-7">
+            <div class="py-2">
+              <h5>MARK UP</h5>
+              <ul class="mb-1">
+                <li class="rounded-circle px-3 pt-3">
+                  <i class="devicon-html5-plain-wordmark lang-icon"></i>
+                </li>
+                <li class="rounded-circle px-3 pt-3">
+                  <i class="devicon-css3-plain-wordmark lang-icon"></i>
+                </li>
+                <li class="rounded-circle px-3 pt-3">
+                  <i class="devicon-bootstrap-plain-wordmark lang-icon"></i>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-12 col-sm-5">
+            <div class="py-2">
+              <h5>BACK END</h5>
+              <ul class="mb-1">
+                <li class="rounded-circle px-3 pt-3">
+                  <i class="devicon-rails-plain-wordmark lang-icon"></i>
+                </li>
+                <li class="rounded-circle px-3 pt-3">
+                  <i class="devicon-ruby-plain-wordmark lang-icon"></i>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-12 col-sm-7">
+            <div class="py-2">
+              <h5>FRONT END</h5>
+              <ul class="mb-1">
+                <li class="rounded-circle px-3 pt-3">
+                  <i class="devicon-vuejs-plain-wordmark lang-icon"></i>
+                </li>
+                <li class="rounded-circle px-3 pt-3">
+                  <i class="devicon-jquery-plain-wordmark lang-icon"></i>
+                </li>
+                <li class="rounded-circle px-3 pt-3">
+                  <i class="devicon-javascript-plain lang-icon"></i>
+                </li>
+                <li class="rounded-circle px-3 pt-3">
+                  <i class="devicon-coffeescript-original-wordmark lang-icon"></i>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-12 col-sm-5">
+            <div class="py-1">
+              <h5>APP</h5>
+              <ul class="mb-2">
+                <li class="rounded-circle px-3 pt-3">
+                  <i class="devicon-swift-plain lang-icon"></i>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-12 col-sm-7">
+            <div class="py-1">
+              <h5>INTERESETED IN</h5>
+              <ul class="mb-2">
+                <li class="rounded-circle px-3 pt-3">
+                  <i class="devicon-swift-plain lang-icon"></i>
+                </li>
+                <li class="rounded-circle px-3 pt-3">
+                  firebase
+                </li>
+                <li class="rounded-circle px-3 pt-3">
+                  flutter
+                </li>
+                <li class="rounded-circle px-3 pt-3">
+                  <i class="devicon-android-plain-wordmark lang-icon"></i>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+
     <main class="main">
-      <h3>経歴</h3>
+      <h3>TIMELINE</h3>
       <section class="timeline">
         <ul>
           <li v-for="(info, index) in timeline_data" v-bind:key="index">
@@ -63,19 +188,24 @@
     </main>
     <div class="container mt-5">
       <ul class="list-inline mb-5">
-        <li class="bg-dark rounded-circle p-3">
+        <li class="bg-dark rounded-circle p-3 mt-3">
           <a class="text-white" href="https://www.facebook.com/takuma.osada.10?ref=bookmarks">
             <custom-icon name="facebook" base-class="custom-icon"></custom-icon>
           </a>
         </li>
-        <li class="bg-dark rounded-circle p-3">
+        <li class="bg-dark rounded-circle p-3 mt-3">
           <a class="text-white" href="https://twitter.com/ostk0069">
             <custom-icon name="twitter" base-class="custom-icon"></custom-icon>
           </a>
         </li>
-        <li class="bg-dark rounded-circle p-3">
+        <li class="bg-dark rounded-circle p-3 mt-3">
           <a class="text-white" href="https://github.com/takumaosada">
             <custom-icon name="github" base-class="custom-icon"></custom-icon>
+          </a>
+        </li>
+        <li class="bg-dark rounded-circle p-3 mt-3">
+          <a class="text-white" href="https://www.wantedly.com/users/31623094">
+            <custom-icon name="message-circle" base-class="custom-icon"></custom-icon>
           </a>
         </li>
       </ul>
@@ -177,5 +307,11 @@ a {
 }
 .v-icon, .custom-icon {
   width: 24px;
+}
+.lang-icon {
+  font-size: 4rem
+}
+.bg-vue {
+  background-color:#42b983
 }
 </style>
