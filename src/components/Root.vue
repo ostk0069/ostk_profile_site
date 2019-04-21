@@ -70,13 +70,13 @@
                 <br><br>
                 #何してる Webサービス/アプリエンジニアになるため趣味で開発・インターンとかしてます
                 <br><br>
-                #最終的な理想のエンジニア像 経営面も考えられる・適切な技術選択ができる・チームをリードできるCTOになりたい
+                #最終的な理想のエンジニア像 サービス志向が強いのでPMやエンジニアであっても意志決定をする立場でありたいと考えています
                 <br><br>
                 #今後やること アプリ開発
                 <br><br>
                 #好きなこと UIを見つめる 新しい言語に触れる 新規事業  Apple製品開封
                 <br><br>
-                #嫌いなこと 大人数の飲み会 インフラ 急なUIの変更
+                #嫌いなこと 大人数の飲み会 急なUIの変更
                 <br><br>
                 #趣味 ロボットが戦う映画・アニメ ゲーム(実況) 美味しいものを食べる
                 <br><br>
@@ -284,6 +284,27 @@ export default {
           'title': '静岡県私立加藤学園暁秀高等学校特進科に入学',
           'description': '',
           'url': '',
+          'yearStart': '`14/04',
+          'yearEnd': '`17/03'
+        },
+        {
+          'title': '静岡県市立三島南中学校に転校',
+          'description': '',
+          'url': '',
+          'yearStart': '`14/04',
+          'yearEnd': '`17/03'
+        },
+        {
+          'title': 'ロッテルダム日本人学校に入学(小５〜中２)',
+          'description': '',
+          'url': 'https://www.jsrotte.nl/index.html',
+          'yearStart': '`14/04',
+          'yearEnd': '`17/03'
+        },
+        {
+          'title': 'Regional International School in Eindhovenに転校(小２)',
+          'description': '',
+          'url': 'https://isecampus.nl/Flex/Site/Page.aspx?PageID=&Lang=',
           'yearStart': '`14/04',
           'yearEnd': '`17/03'
         }
