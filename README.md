@@ -1,6 +1,8 @@
-# ostk
+# ostk.dev - Profile site for introducing [@ostk0069](https://twitter.com/ostk0069)
 
-> A Vue.js project
+> Creating Profile Site with Vue.js / Firebase Hosting
+
+If you have any questions/contribution to this repo, please feel free to do so!
 
 ## Build Setup
 
@@ -19,4 +21,3 @@ npm run build --report
 ```
 
 For a detailed explanation on how things work, check out the [guide](http://vuejs-templates.github.io/webpack/) and [docs for vue-loader](http://vuejs.github.io/vue-loader).
-# ostkSlide
