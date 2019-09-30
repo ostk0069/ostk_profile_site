@@ -23,7 +23,7 @@ jobs:
     - name: npm install, build
       run: |
         npm install
-        npm run generate
+        npm run build
     - name: deploy to Firebase Hosting
       run: |
         ./node_modules/.bin/firebase deploy --token=${{ secrets.FIREBASE_TOKEN }}
